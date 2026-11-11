@@ -2,7 +2,7 @@
   "title": "Sieved Mirror Kernels, Gonek-Hughes-Keating versus Entire Exponential Prime Factors, Prime-Power Purity on (X, X^2], and Functional-Equation Obstructions",
   "description": "Paper VI of the series on the Transverse Wronskian of Riemann's Xi-Function. Establishes strip-holomorphic sieved mirror kernels Phi_X(u) under canonical Wronskian normalization, compares Gonek-Hughes-Keating's truncated Euler product P_X(s)^{-1} against the entire zero-free exponential factor E_X(s) on sigma > 1 (proving exact annihilation on [2, X], prime-power purity b_N^E(X) = Lambda(N)/ln N on (floor(X), (floor(X)+1)^2), and universal [0,1] contractivity), and proves three critical-strip obstructions in 0 < sigma <= 1: lack of a functional equation leaving the reflected Riemann-Siegel branch unsieved, tautology of truncated theta < 1/2 and O(1) stall at d ~ 1/ln t, and single-line weight divergence w_n*(d_0) -> -infty alongside Selberg's explicit-formula zero sum.",
   "upload_type": "publication",
-  "publication_type": "article",
+  "publication_type": "preprint",
   "creators": [
     {
       "name": "Missiaen, Thijs",
@@ -23,5 +23,5 @@
     "MSC 11N36",
     "MSC 30D15"
   ],
-  "version": "1.1.0"
+  "version": "6.1.1"
 }

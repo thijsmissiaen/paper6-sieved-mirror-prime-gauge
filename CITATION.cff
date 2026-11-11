@@ -7,10 +7,11 @@ authors:
     email: "thijs.missiaen@gmail.com"
     orcid: "https://orcid.org/0009-0007-3678-0810"
 title: "Sieved Mirror Kernels, Gonek-Hughes-Keating versus Entire Exponential Prime Factors, Prime-Power Purity on (X, X^2], and Functional-Equation Obstructions"
-version: 1.1.0
+version: "6.1.1"
+doi: "10.5281/zenodo.23645881"
 date-released: 2026-11-11
-url: "https://github.com/thijsmissiaen/paper6-sieved-mirror-kernel-prime-gauge"
-repository-code: "https://github.com/thijsmissiaen/paper6-sieved-mirror-kernel-prime-gauge"
+url: "https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge"
+repository-code: "https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge"
 license: "MIT"
 keywords:
   - "Riemann Xi-function"

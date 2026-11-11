@@ -2,14 +2,14 @@
   "schema_version": "1.0.0",
   "name": "sieved-mirror-prime-gauge",
   "title": "Sieved Mirror Kernels, Gonek-Hughes-Keating versus Entire Exponential Prime Factors, Prime-Power Purity on (X, X^2], and Functional-Equation Obstructions",
-  "version": "1.1.0",
+  "version": "6.1.1",
   "author": {
     "name": "Thijs Missiaen",
     "affiliation": "Independent Researcher, Belgium",
     "email": "thijs.missiaen@gmail.com",
     "orcid": "0009-0007-3678-0810"
   },
-  "repository": "https://github.com/thijsmissiaen/paper6-sieved-mirror-kernel-prime-gauge",
+  "repository": "https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge",
   "license": "MIT",
   "msc_2020": ["11M06", "11N36", "30D15", "41A60"],
   "entrypoints": {
