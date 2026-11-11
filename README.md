@@ -1,6 +1,6 @@
 # Sieved Mirror Kernels, Gonek–Hughes–Keating versus Entire Exponential Prime Factors, Prime-Power Purity on $(X, X^2]$, and Functional-Equation Obstructions
 
-**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24819503.svg)](https://doi.org/10.5281/zenodo.24819503) [`10.5281/zenodo.24819503`](https://doi.org/10.5281/zenodo.24819503)  
+**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23645881.svg)](https://doi.org/10.5281/zenodo.23645881) [`10.5281/zenodo.23645881`](https://doi.org/10.5281/zenodo.23645881)  
 **Author:** Thijs Missiaen (Independent Researcher, Belgium; ORCID: [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810))  
 **Series:** Paper VI of the Transverse Wronskian Series on Riemann's $\Xi$-Function  
 **Manuscript:** [paper/paper6_sieved_mirror_prime_gauge.pdf](paper/paper6_sieved_mirror_prime_gauge.pdf) (9 pages, AMS-LaTeX / pdfTeX) | [paper/paper6_sieved_mirror_prime_gauge.tex](paper/paper6_sieved_mirror_prime_gauge.tex)  
