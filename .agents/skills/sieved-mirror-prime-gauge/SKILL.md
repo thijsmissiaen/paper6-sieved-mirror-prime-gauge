@@ -9,11 +9,15 @@ description: Scientific knowledge skill for Paper VI of the Transverse Wronskian
 
 For any finite real Dirichlet polynomial $M _ X(s) = \sum _ {k \in \mathcal{I} _ X} c _ k k^{-s}$ and $\mathcal{M} _ X(z) := M _ X(\frac{1}{2}+\mathrm{i} z)M _ X(\frac{1}{2}-\mathrm{i} z)$, the product $\Xi _ X(z) := \Xi(z)\mathcal{M} _ X(z)$ satisfies
 
-$$\Xi _ X(z) = 8\int _ 0^{\infty} \Phi _ X(u)\cos(2zu)\mathrm{d}u, \qquad W _ X(d,t) := \frac{1}{2}\frac{\partial}{\partial d}\left\lvert\Xi _ X(t - \mathrm{i} d)\right\rvert^2 = 16\int _ 0^{\infty} y\sinh(2dy) I _ X(y,t)\mathrm{d}y,$$
+$$
+\Xi _ X(z) = 8\int _ 0^{\infty} \Phi _ X(u)\cos(2zu)\mathrm{d}u, \qquad W _ X(d,t) := \frac{1}{2}\frac{\partial}{\partial d}\left\lvert\Xi _ X(t - \mathrm{i} d)\right\rvert^2 = 16\int _ 0^{\infty} y\sinh(2dy) I _ X(y,t)\mathrm{d}y,
+$$
 
 where the even sieved kernel
 
-$$\Phi _ X(u) := \frac{1}{2}\sum _ {k,m \in \mathcal{I} _ X} \frac{c _ k c _ m}{\sqrt{km}}\left[\Phi\left(u + \frac{1}{2}\ln\frac{k}{m}\right) + \Phi\left(u - \frac{1}{2}\ln\frac{k}{m}\right)\right]$$
+$$
+\Phi _ X(u) := \frac{1}{2}\sum _ {k,m \in \mathcal{I} _ X} \frac{c _ k c _ m}{\sqrt{km}}\left[\Phi\left(u + \frac{1}{2}\ln\frac{k}{m}\right) + \Phi\left(u - \frac{1}{2}\ln\frac{k}{m}\right)\right]
+$$
 
 remains holomorphic throughout the full strip $\lvert\mathrm{Im}(u)\rvert < \frac{\pi}{8}$.
 
@@ -31,13 +35,15 @@ On $\sigma = \mathrm{Re}(s) > 1$:
 
 1. **Divergence of $\mathcal{P} _ {>X}(s)$ and Lack of Functional Equation:** Inside $0 < \sigma \le 1$, $\mathcal{P} _ {>X}(s) = \sum _ {n > X} \frac{\Lambda(n)}{\ln n}n^{-s}$ diverges and $\zeta(s)E _ X(s)$ has the exact same zeros as $\zeta(s)$. Neither $E _ X(s)$ nor any finite $M _ X(s)$ satisfies a functional equation: multiplying $\zeta(s)$ by $M _ X(s)$ creates an incomplete convolution tail on $(N(t), N(t)K]$ and leaves the reflected Riemann–Siegel branch $\chi(s)M _ X(s)\sum _ {m \le N(t)} m^{s-1}$ unsieved with mixed exponents $k^{-s}m^{s-1}$.
 2. **Tautology of $\theta < \frac{1}{2}$ and Zero-Detection Stall:** Setting $X = N(t) = \lfloor\sqrt{t/2\pi}\rfloor$ in a formal $N(t)$-term sum makes $b _ n^{\mathcal{E}}(N(t)) = 0$ ($2 \le n \le N(t){}$) tautological while ignoring the unsieved reflected branch; moreover, at zero-detection depth $d = c/\ln t$, $\frac{X^{-2d}}{2d\ln X} \to \frac{\mathrm{e}^{-c}}{c} = \mathcal{O}(1)$ does not decay.
-3. **Single-Line Weight Blow-Up and Selberg's Explicit-Formula Waterbed:** Matching coefficients on $\sigma _ 0 = \frac{1}{2} + d _ 0 > 1$ forces $w _ n^*(d _ 0) = -(n^{2d _ 0}-1)^{-1}$, which fails for $d \ne d _ 0$, diverges as $-(2d _ 0\ln n)^{-1} \to -\infty$ as $d _ 0 \to 0^+$, and inside $0 < \sigma \le 1$ cannot cancel the meromorphic zero poles $\sum _ \rho \frac{\widetilde{\eta}(\rho - s)X^{\rho - s}}{\rho - s}$ ($\widetilde{\eta}(w) := -\int _ 0^{\infty} \eta'(u)u^w \mathrm{d}u$, $\widetilde{\eta}(0) = 1$) in Selberg's explicit formula.
+3. **Single-Line Weight Blow-Up and Selberg's Explicit-Formula Waterbed:** Matching coefficients on $\sigma _ 0 = \frac{1}{2} + d _ 0 > 1$ forces $w _ n^{\ast}(d _ 0) = -(n^{2d _ 0}-1)^{-1}$, which fails for $d \ne d _ 0$, diverges as $-(2d _ 0\ln n)^{-1} \to -\infty$ as $d _ 0 \to 0^+$, and inside $0 < \sigma \le 1$ cannot cancel the meromorphic zero poles $\sum _ \rho \frac{\widetilde{\eta}(\rho - s)X^{\rho - s}}{\rho - s}$ ($\widetilde{\eta}(w) := -\int _ 0^{\infty} \eta'(u)u^w \mathrm{d}u$, $\widetilde{\eta}(0) = 1$) in Selberg's explicit formula.
 
 ## 4. Shifted Outer Modulus Identity
 
 For $\mathcal{E} _ {X,\kappa}(z) := E _ X(\frac{1}{2}+\kappa+\mathrm{i} z)E _ X(\frac{1}{2}+\kappa-\mathrm{i} z)$ ($\kappa \ge 0$),
 
-$$\left\lvert\mathcal{E} _ {X,\kappa}(t - \mathrm{i} d)\right\rvert^2 = \exp\left(-4\sum _ {2 \le n \le X} \frac{\Lambda(n)}{n^{1/2+\kappa}\ln n}\cosh(d\ln n)\cos(t\ln n)\right) > 0,$$
+$$
+\left\lvert\mathcal{E} _ {X,\kappa}(t - \mathrm{i} d)\right\rvert^2 = \exp\left(-4\sum _ {2 \le n \le X} \frac{\Lambda(n)}{n^{1/2+\kappa}\ln n}\cosh(d\ln n)\cos(t\ln n)\right) > 0,
+$$
 
 leaving the zero set of $\Xi(z)$ invariant.
 
